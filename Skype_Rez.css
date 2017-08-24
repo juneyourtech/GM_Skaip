@@ -36,7 +36,7 @@
 
 :root .swx .shell.footer .languageSelectorForm {position:absolute !important; display:block !important; top:0px !important; right:0px !important; height:95% !important; margin:0px !important; border-left:solid 1px #B0C5D1 !important; padding:0px !important; padding-right:5px !important; line-height:16px !important; vertical-align:initial !important;}
 
-:root .swx .shell.footer .languageSelectorForm .selectedLanguage {line-height:26px;}
+:root .swx .shell.footer .languageSelectorForm .selectedLanguage {line-height:26px !important;}
 
 :root .swx .shell.footer .languageSelectorForm .languageSelector {height:100% !important; font-size:11px !important;}
 
