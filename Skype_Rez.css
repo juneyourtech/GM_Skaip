@@ -22,7 +22,11 @@
 
 :root .swx .chat .conversation .typing {height:unset !important;}
 
-:root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5;}
+:root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5; width:100%; background-color:rgba(255, 255, 255, 0.9) !important;}
+
+:root .swx .chat .input .form form {margin:8px 0px 0px 0px !important;}
+
+:root .swx .chat .input.active .form form {background-color:white !important;}
 
 :root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
