@@ -24,7 +24,7 @@
 
 :root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5;}
 
-:root .swx .shell.footer {padding:0px !important; height:45px !important; display:inline-block !important;}
+:root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
 :root .swx .shell.footer .app {display:block !important; margin-top:0px !important; margin-right:0px !important; padding-top:0px !important; height:15px !important; vertical-align:initial !important;}
 
