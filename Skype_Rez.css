@@ -18,6 +18,8 @@
 
 :root .swx .chat .conversationHeader .headerMain .roster .grid {padding-top:0px !important;}
 
+:root .swx .chat .conversationHeader .headerMain .roster .grid .tile.conversationTopic h3 .button.chevronUp {top:11px !important; left:-15px !important;}
+
 :root .swx .chat .conversationHeader .headerControls {margin-top:0px !important; margin-bottom:14px !important; padding-bottom:0px !important;}
 
 :root .swx .chat .conversation .typing {height:unset !important;}
