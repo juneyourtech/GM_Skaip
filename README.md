@@ -20,8 +20,11 @@ Use cases: In devices with Android 2.3, where the Skype app has ceased working, 
 
 # Caveats
 * Note, that this only works with text-based messaging; sending of SMS's should also be possible. Therefore, do not expect use of video or audio, especially if your device is slow; see this section's last point.
-* Access to settings is somewhat limited. The settings category links work, and that section is appropriately scrollable, but actual settings sections are limited in view, making some settings inaccessible due to formatting and space constraints. — Because I primarily created the userstyle to allow text-based messaging as the bare minimum.
-* Skype for Web in Android Firefox can be very slow on older devices, particularly those with slow CPUs and low amounts of RAM memory. On a device with an 800 MHz CPU and 512 Mb physical RAM, loading from login entry to visible active online status can take around 3–4 minutes, and the entire site is very memory-intensive. YMMV.
+* If you've set the dark theme, then it might not switch on right away in mobile Firefox. Tap the settings/gear symbol to switch the dark theme on, if it's been set before; tap the settings/gear symbol again to leave the settings page.
+* Access to settings is somewhat limited due to formatting and space constraints. The settings category links work, and that section is appropriately scrollable, but actual settings sections are limited in view, making some settings inaccessible (without the userstyle, the settings are entirely inaccessible with low-res displays). Settings can be changed beforehand in a PC, as PCs have screens with bigger resolutions. — I primarily created the userstyle to allow text-based messaging as the bare minimum.
+* Skype for Web in Android Firefox is very memory- and resource-intensive, and can thus be very slow on older devices, particularly those with slow CPUs and low amounts of RAM memory. This can drain your device battery.
+
+On a device with an 800 MHz CPU and 512 Mb physical RAM, loading from login entry to visible active online status can take around 3–4 minutes; the entire site is very memory-intensive, so that most other apps become inactive. YMMV.
 
 # Other functionality.
 * To see, if there are any unread messages, tap on the Firefox Tab button for a list of tabs. Next to the site thumbnail is the site title: If any unread messages await, their number is displayed in parentheses. (Due to space constraints, it can be cumbersome to scroll through all contacts in order to see, if there are any unread messages.)
