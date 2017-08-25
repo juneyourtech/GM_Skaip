@@ -3,6 +3,8 @@
 @media only screen and (max-width:500px) {
 
 :root body.swx {min-height:240px; height:100%;}
+  
+:root .swx .side, :root .swx .Me-small {border-left:none !important;}
 
 :root .swx .ContactsPage-heading {margin:0px 5px 0px 0px !important;}
 
@@ -31,6 +33,10 @@
 :root .swx .chat .input .form form {margin:8px 0px 0px 0px !important;}
 
 :root .swx.desktop:not([class*='dark']) .chat .input.active .form form {background-color:white;}
+
+:root .swx .UserSettingsPage-master {min-width:160px !important; max-width:160px !important; overflow-y:auto;}
+
+:root .swx .UserSettingsPage-detail {position:absolute !important; top:0px !important; left:160px !important; width:unset !important; display:inline-table !important;}
 
 :root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
