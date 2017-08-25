@@ -10,9 +10,9 @@ Use cases: In devices with Android 2.3, where the Skype app has ceased working, 
 * The message entry textarea switches location to top when active, so that it would not hide behind the virtual keyboard. This enables most of the entered text to visible until the lower edge of the textarea reaches the top edge of the virtual keyboard.
 
 # Requirements
-* Firefox for Android
-* Stylish extension
-* Firefox must be configured in about:config to identify itself as Firefox for desktop to all top-level Skype-related domains.
+* Firefox for Android, or GNU IceCat (aka IceCatMobile). Tested to work with Firefox.
+* Stylish extension.
+* On Android 2.3 and 3.0, Firefox is not at the latest version. The browser should be configured in about:config to identify itself as Firefox for desktop to all top-level Skype-related domains. Most certainly, this must be done in GNU IceCat, because its default user agent string is obscure by way of being low-information and too generic (for privacy purposes).
 
 # Considerations
 * NoScript must be configured to permit all Skype-related domains.
