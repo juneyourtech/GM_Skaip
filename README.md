@@ -30,4 +30,4 @@ Use cases: In devices with Android 2.3, where the Skype app has ceased working, 
 * Skype for Web allows editing and deleting messages. To do either, long-tap on the entered message to get the context menu.
 
 # Legal
-The userstyle is free to use by anyone. No copyright infringment is intended.
+The userstyle is free to use by anyone. No copyright infringment is intended. Skype is the registered trademark of Microsoft. Android is the registered trademark of Google. Firefox is the registere trademark of Mozilla.
