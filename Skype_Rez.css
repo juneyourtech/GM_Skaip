@@ -26,8 +26,6 @@
 
 :root .swx .chat .conversation .typing {height:unset !important;}
 
-:root .swx .chat .input. {transition:none;}
-
 :root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5; width:100%;}
 
 :root .swx.desktop:not([class*='dark']) .chat .input.active {background-color:rgba(255, 255, 255, 0.9);}
@@ -64,6 +62,8 @@
  }
 
 @media only screen and (max-width:600px) {
+
+:root .swx .chat .input {transition:none !important;}
 
 :root .swx .chat .input.active {transition:none !important;}
 
