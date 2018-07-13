@@ -1,5 +1,7 @@
 @-moz-document url-prefix('https://web.skype.com/') {
 
+:root .swx .conversationHistory .history .messageHistory {padding-left:0.5em !important; padding-right:0.5em !important;}
+
 @media only screen and (max-width:500px) {
 
 :root body.swx {min-height:240px; height:100%;}
@@ -28,6 +30,8 @@
 :root .swx .chat .conversationHeader .headerControls {margin-top:0px !important; margin-bottom:14px !important; padding-bottom:0px !important;}
 
 :root .swx .chat .conversation .typing {height:unset !important;}
+
+:root .swx .chat .input:before {margin-left:0px !important; margin-right:0px !important; padding-right:0px !important; padding-left:0px !important;}
 
 :root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5; width:100%;}
 
@@ -66,7 +70,7 @@
 
 @media only screen and (max-width:600px) {
 
-:root .swx .chat .messageHistory, :root .swx .conversationHistory .messageHistory {padding-left:0.5em !important; padding-right:0.5em !important;}
+:root .swx .chat .messageHistory {padding-left:0.5em !important; padding-right:0.5em !important;}
 
 :root .swx .chat .input {transition:none !important;}
 
