@@ -3,7 +3,10 @@
 @media only screen and (max-width:500px) {
 
 :root body.swx {min-height:240px; height:100%;}
-  
+
+:root .shellSpinnerContainer:before {content:'...'; display:block; color:white;}
+:root .shellSpinnerContainer div.spinner.white {display:none !important;}
+
 :root .swx .side, :root .swx .Me-small {border-left:none !important;}
 
 :root .swx .ContactsPage-heading {margin:0px 5px 0px 0px !important;}
@@ -72,6 +75,10 @@
  }
 
 @media only screen and (max-width:800px) {
+
+:root .swx .chat .conversationHeader .headerMain .roster .grid {padding-left:0.5em !important; padding-right:0.5em !important;}
+
+:root .swx .chat .messageHistory, :root .swx .conversationHistory .messageHistory {padding-left:0.5em !important; padding-right:0.5em !important;}
 
 :root .swx .chat .input .form-holder.mediabarV2enabled {margin-top:0px !important;}
 /* temp: removed !important */
