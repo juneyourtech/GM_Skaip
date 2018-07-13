@@ -26,13 +26,17 @@
 
 :root .swx .chat .conversation .typing {height:unset !important;}
 
+:root .swx .chat .input. {transition:none;}
+
 :root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5; width:100%;}
-  
+
 :root .swx.desktop:not([class*='dark']) .chat .input.active {background-color:rgba(255, 255, 255, 0.9);}
 
-:root .swx .chat .input .form form {margin:8px 0px 0px 0px !important;}
+:root .swx.desktop.dark .chat .input.active {background-color:rgba(31,31,31,0.9);}
 
 :root .swx.desktop:not([class*='dark']) .chat .input.active .form form {background-color:white;}
+
+:root .swx.desktop.dark .chat .input form textarea {color:white;}
 
 :root .swx .UserSettingsPage-master {min-width:160px !important; max-width:160px !important; overflow-y:auto;}
 
@@ -55,6 +59,20 @@
 :root .swx .shell.footer .languageSelectorForm .languageSelector {height:100% !important; font-size:11px !important;}
 
 :root .swx .shell.footer .legal {margin-top:0px !important; display:block !important; line-height:8px !important;}
+ }
 
-}
+@media only screen and (max-width:600px) {
+
+:root .swx .chat .input.active {transition:none !important;}
+
+:root .swx .chat .input .form form {margin:8px 0px 0px 0px;}
+/* temp: removed !important */
+ }
+
+@media only screen and (max-width:800px) {
+
+:root .swx .chat .input .form-holder.mediabarV2enabled {margin-top:0px;}
+/* temp: removed !important */
+ }
+
 }
