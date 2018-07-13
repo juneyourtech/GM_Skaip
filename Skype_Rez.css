@@ -66,6 +66,8 @@
 
 @media only screen and (max-width:600px) {
 
+:root .swx .chat .messageHistory, :root .swx .conversationHistory .messageHistory {padding-left:0.5em !important; padding-right:0.5em !important;}
+
 :root .swx .chat .input {transition:none !important;}
 
 :root .swx .chat .input.active {transition:none !important;}
@@ -77,8 +79,6 @@
 @media only screen and (max-width:800px) {
 
 :root .swx .chat .conversationHeader .headerMain .roster .grid {padding-left:0.5em !important; padding-right:0.5em !important;}
-
-:root .swx .chat .messageHistory, :root .swx .conversationHistory .messageHistory {padding-left:0.5em !important; padding-right:0.5em !important;}
 
 :root .swx .chat .input .form-holder.mediabarV2enabled {margin-top:0px !important;}
 /* temp: removed !important */
