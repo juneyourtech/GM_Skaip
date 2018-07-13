@@ -32,11 +32,13 @@
 
 :root .swx.desktop:not([class*='dark']) .chat .input.active {background-color:rgba(255, 255, 255, 0.9);}
 
-:root .swx.desktop.dark .chat .input.active {background-color:rgba(31,31,31,0.9);}
+:root .swx.desktop.dark .chat .input.active {background-color:rgba(31,31,31,0.9) !important;}
 
 :root .swx.desktop:not([class*='dark']) .chat .input.active .form form {background-color:white;}
 
-:root .swx.desktop.dark .chat .input form textarea {color:white;}
+:root .swx .chat .input .form .container {pading-top:0px !important; padding-bottom:0px !important; padding-right:0px !important;}
+
+:root .swx.desktop.dark .chat .input form textarea {color:white !important;}
 
 :root .swx .UserSettingsPage-master {min-width:160px !important; max-width:160px !important; overflow-y:auto;}
 
@@ -65,13 +67,13 @@
 
 :root .swx .chat .input.active {transition:none !important;}
 
-:root .swx .chat .input .form form {margin:8px 0px 0px 0px;}
+:root .swx .chat .input .form form {margin:0px 0px 0px 0px !important;}
 /* temp: removed !important */
  }
 
 @media only screen and (max-width:800px) {
 
-:root .swx .chat .input .form-holder.mediabarV2enabled {margin-top:0px;}
+:root .swx .chat .input .form-holder.mediabarV2enabled {margin-top:0px !important;}
 /* temp: removed !important */
  }
 
