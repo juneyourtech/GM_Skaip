@@ -59,6 +59,9 @@
 /* 08.08.2018: margin is set, padding is new. */
 /* END: .UserSettingsPage-option */
 
+:root .swx .UserSettingsPage-option .pref-template-boolean-inner {margin-bottom:0px !important;}
+/* 08.08.2018: margin-bottom was pre-set. */
+
 :root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
 :root .swx .shell.footer .app {display:block !important; margin-top:0px !important; margin-right:0px !important; padding-top:0px !important; height:15px !important; vertical-align:initial !important;}
