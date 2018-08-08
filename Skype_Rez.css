@@ -71,6 +71,9 @@
 :root .swx .UserSettingsPage-option .pref-toggle-sec-text, :root .swx .UserSettingsPage-option .pref-ringingDeferrer-sec-text {margin:0px !important;}
 /* 08.08.2018 (6): margin was pre-set. */
 
+:root .swx .UserSettingsPage-secondaryText {line-height:1.4em;}
+/* 08.08.2018 (7): Added. */
+
 :root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
 :root .swx .shell.footer .app {display:block !important; margin-top:0px !important; margin-right:0px !important; padding-top:0px !important; height:15px !important; vertical-align:initial !important;}
