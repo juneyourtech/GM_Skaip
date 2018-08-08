@@ -53,14 +53,23 @@
 
 /* START: .UserSettingsPage-option | upper supersedes lower (follows ruleset priority in Firefox Web Inspector. */
 :root .swx .UserSettingsPage-option.pref-template-boolean {flex-direction:unset !important; display:inline-block !important;}
-/* 08.08.2018: flex-direction and display were set before. */
+/* 08.08.2018 (1): flex-direction and display were set before. */
 
 @media only screen and (max-width:600px) { :root .swx .UserSettingsPage-option {margin:0px !important; padding:0px;} }
-/* 08.08.2018: margin is set, padding is new. */
+/* 08.08.2018 (2): margin is set, padding is new. */
 /* END: .UserSettingsPage-option */
 
 :root .swx .UserSettingsPage-option .pref-template-boolean-inner {margin-bottom:0px !important;}
-/* 08.08.2018: margin-bottom was pre-set. */
+/* 08.08.2018 (3): margin-bottom was pre-set. */
+
+@media only screen and (max-width:600px) { :root .swx .UserSettingsPage-option .pref-toggle-col {margin:0px; !important;} }
+/* 08.08.2018 (4): margin was pre-set. */
+
+:root .swx .UserSettingsPage-option .pref-toggle-heading {line-height:19px !important; margin:0px !important; overflow:unset !important; text-overflow:unset !important; width:auto !important;}
+/* 08.08.2018 (5): all parameters were pre-set. */
+
+:root .swx .UserSettingsPage-option .pref-toggle-sec-text, :root .swx .UserSettingsPage-option .pref-ringingDeferrer-sec-text {margin:0px !important;}
+/* 08.08.2018 (6): margin was pre-set. */
 
 :root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
