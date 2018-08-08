@@ -62,6 +62,9 @@
 :root .swx .UserSettingsPage-option .pref-template-boolean-inner {margin-bottom:0px !important;}
 /* 08.08.2018 (3): margin-bottom was pre-set. */
 
+:root .swx .UserSettingsPage-option .pref-template-boolean-buttonWrap {display:inline !important; float:left;}
+/* 08.08.2018 (9): display was pre-set. */
+
 @media only screen and (max-width:600px) { :root .swx .UserSettingsPage-option .pref-toggle-col {margin:0px; !important;} }
 /* 08.08.2018 (4): margin was pre-set. */
 
