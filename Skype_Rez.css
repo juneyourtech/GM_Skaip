@@ -51,7 +51,13 @@
 
 :root .swx .UserSettingsPage-category {min-height:50px !important; padding:0px !important;}
 
-@media only screen and (max-width:600px) { :root .swx .UserSettingsPage-option {margin:0px; padding:0px;} }
+/* START: .UserSettingsPage-option | upper supersedes lower (follows ruleset priority in Firefox Web Inspector. */
+:root .swx .UserSettingsPage-option.pref-template-boolean {flex-direction:unset !important; display:inline-block !important;}
+/* 08.08.2018: flex-direction and display were set before. */
+
+@media only screen and (max-width:600px) { :root .swx .UserSettingsPage-option {margin:0px !important; padding:0px;} }
+/* 08.08.2018: margin is set, padding is new. */
+/* END: .UserSettingsPage-option */
 
 :root .swx .shell.footer {padding:0px !important; height:unset !important; display:inline-block !important;}
 
