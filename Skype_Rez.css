@@ -51,6 +51,9 @@
 
 :root .swx .UserSettingsPage-category {min-height:50px !important; padding:0px !important;}
 
+:root .swx .hyperscroll > .scrollViewport, :root .swx .hyperscroll > .scrollViewportV {transform:none !important;}
+/* 08.08.2018 (10): Transform was pre-set. */
+
 /* START: .UserSettingsPage-option | upper supersedes lower (follows ruleset priority in Firefox Web Inspector. */
 :root .swx .UserSettingsPage-option.pref-template-boolean {flex-direction:unset !important; display:inline-block !important;}
 /* 08.08.2018 (1): flex-direction and display were set before. */
