@@ -31,6 +31,12 @@
 
 :root .swx .chat .conversation .typing {height:unset !important;}
 
+ /* 03.11.2018 Some emoticons in texts */
+:root .swx span.emoticon.extraLarge > canvas {display:none;}
+:root .swx span.emoticon.extraLarge > canvas:before {content:'emoticon'; display:inline-block; border:solid 1px Silver;}
+:root .swx span.emoticon.extraLarge > canvas[data-item-id="heart"]:before {content:'❤️'; border:none; color:red;}
+ /*Android 2.3.6 supports "heart" U+2765 .*/
+
 :root .swx .chat .input:before {margin-left:0px !important; margin-right:0px !important; padding-right:0px !important; padding-left:0px !important;}
 
 :root .swx .chat .input.active {position:absolute; top:22px; right:0px; z-index:5; width:100%;}
